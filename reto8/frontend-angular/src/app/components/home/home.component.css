@@ -1,0 +1,24 @@
+main{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table{
+    background-color: indigo;
+    margin-top: 4vh;
+}
+
+th, td {
+    padding: 1vh 1vw 1vh 1vw;
+    text-align: center;
+    background-color: white;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+}

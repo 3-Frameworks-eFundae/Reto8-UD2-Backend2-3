@@ -1,0 +1,16 @@
+<h2>Cliente {{ animal?.idAnimal }}</h2>
+
+<div class="tarjetaAnimal">
+    <h3>{{ animal?.nombre }}</h3>
+    <p>Especie: {{ animal?.especie }}</p>
+    <p>Raza: {{ animal?.raza }}</p>
+    <p>Fecha de nacimiento: {{ formatearFecha(animal?.fechaNacimiento!.toString()) }}</p>
+    <p id="dueño">Dueño:</p>
+    <ul>
+        <li>ID: {{ animal?.dueno?.idCliente }}</li>
+        <li>Nombre: {{ animal?.dueno?.nombre }}</li>
+        <li>Teléfono: {{ animal?.dueno?.numeroTelefono }}</li>
+        <li>Dirección: {{ animal?.dueno?.direccion }}</li>
+    </ul>
+    <p>ID en BBDD: {{ animal?.id }}</p>
+</div>

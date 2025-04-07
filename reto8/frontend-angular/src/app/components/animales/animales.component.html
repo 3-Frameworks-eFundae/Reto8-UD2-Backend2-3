@@ -1,0 +1,10 @@
+<h2>Lista de animales</h2>
+
+@for (animal of animales; track $index) {
+    <div class="tarjetaAnimal">
+        <h3>{{ animal.nombre }}</h3>
+        <p>Especie: {{ animal.especie }}</p>
+        <p>Raza: {{ animal.raza }}</p>
+        <p>Fecha de nacimiento: {{ formatearFecha(animal.fechaNacimiento.toString()) }}</p>
+    </div>
+}

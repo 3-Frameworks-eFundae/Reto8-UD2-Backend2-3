@@ -1,0 +1,33 @@
+<main class="main">
+    <h1>{{ title }}</h1>
+    <p>Mensaje de API Rest de Spring: {{ bienvenida }}</p>
+    <hr>
+
+    <table>
+        <tr>
+            <th>Método</th>
+            <th>URL</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/clientes">/clientes</a></td>
+            <td>Obtiene la lista de clientes</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/clientes/1">/clientes/1</a></td>
+            <td>Obtiene la información del cliente con ID 1</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/animales">/animales</a></td>
+            <td>Obtiene la lista de animales</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/animales/2">/animales/2</a></td>
+            <td>Obtiene la información del animal cuyo dueño tiene el ID 2</td>
+        </tr>
+    </table>
+</main>

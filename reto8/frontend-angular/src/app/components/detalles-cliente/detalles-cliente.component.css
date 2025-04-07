@@ -1,0 +1,19 @@
+h2 {
+    margin: 4vh 1vw 4vh 1vw;
+}
+
+.tarjetaCliente {
+    margin: 4vh 1vw 4vh 1vw;
+    padding: 1vh 1vw 1vh 1vw;
+    max-width: 30vw;
+    background-color: rgb(80, 225, 80);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.3s ease;
+}
+
+.tarjetaCliente:hover {
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,9 @@
+<h2>Lista de clientes</h2>
+
+@for (cliente of clientes; track $index) {
+    <div class="tarjetaCliente" onclick="window.location.href=`/clientes/${cliente.idCliente}`">
+        <h3>{{ cliente.nombre }}</h3>
+        <p>Dirección: {{ cliente.direccion }}</p>
+        <p>Teléfono: {{ cliente.numeroTelefono }}</p>
+    </div>
+}
