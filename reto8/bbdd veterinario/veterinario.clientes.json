@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67c9a439823517dfab5b60fb"
+  },
+  "nombre": "Ainara Serna Méndez",
+  "direccion": "Avenida Mayor, 2",
+  "numero_telefono": 987654321,
+  "id_cliente": 1
+},
+{
+  "_id": {
+    "$oid": "67c9e018417bd96d3fe280ef"
+  },
+  "nombre": "Paula Serna Méndez",
+  "direccion": "Avenida Mayor",
+  "numero_telefono": 654321987,
+  "id_cliente": 2
+}]

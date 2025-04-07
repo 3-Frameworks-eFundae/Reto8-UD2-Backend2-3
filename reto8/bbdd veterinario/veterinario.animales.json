@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67c9d1fb83988ac56019b99a"
+  },
+  "nombre": "Coco",
+  "especie": "Gato",
+  "raza": "Snowshoe",
+  "fecha_nacimiento": {
+    "$date": "2019-07-10T00:00:00.000Z"
+  },
+  "id_animal": 1,
+  "dueno": {
+    "id_cliente": 1,
+    "nombre": "Ainara Serna Méndez",
+    "dirección": "Avenida Mayor",
+    "numero_telefono": 987654321
+  }
+},
+{
+  "_id": {
+    "$oid": "67c9d21583988ac56019b99c"
+  },
+  "nombre": "Kira",
+  "especie": "Gato",
+  "raza": "Tuxedo",
+  "fecha_nacimiento": {
+    "$date": "2018-07-20T00:00:00.000Z"
+  },
+  "id_animal": 2,
+  "dueno": {
+    "nombre": "Paula Serna Méndez",
+    "direccion": "Avenida Mayor",
+    "numero_telefono": 654321987,
+    "id_cliente": 2
+  }
+}]
