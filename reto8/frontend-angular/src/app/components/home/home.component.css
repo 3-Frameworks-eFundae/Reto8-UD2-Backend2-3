@@ -15,7 +15,7 @@ table{
 th, td {
     padding: 1vh 1vw 1vh 1vw;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 232, 101);
 }
 
 hr {
